@@ -25,7 +25,6 @@ This project is a backend system to manage a chess tournament built with Django 
 
     ```bash
     git clone https://github.com/ShahloSafarova/Chess_tournament.git
-    cd chess-tournament-management
     ```
 
 2. Create and activate the virtual environment:
