@@ -27,18 +27,11 @@ This project is a backend system to manage a chess tournament built with Django 
     git clone https://github.com/ShahloSafarova/Chess_tournament.git
     ```
 
-2. Create and activate the virtual environment:
+2. Activate the virtual environment:
 
-    If you already have a virtual environment named `env`:
-
-    ```bash
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
-
-    If you need to create a new one:
+     you already have a virtual environment named `env`:
 
     ```bash
-    python -m venv env
     source env/bin/activate  # On Windows use `env\Scripts\activate`
     ```
 
@@ -46,15 +39,6 @@ This project is a backend system to manage a chess tournament built with Django 
 
     ```bash
     pip install -r requirements.txt
-    ```
-
-4. Set up environment variables:
-
-    Create a `.env` file in the project root and add the following:
-
-    ```
-    SECRET_KEY=your_secret_key
-    DEBUG=True
     ```
 
 5. Apply the migrations:
